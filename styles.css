@@ -1,6 +1,7 @@
 html,
 head,
 body,
+/* add stylings from responsive webmap by Chris Wong, while changing colors */
 #main-container {
     height: 100%;
     width: 100%;
@@ -78,7 +79,7 @@ nav {
     }
 }
 
-/* make each button the same color as the lines */
+/* style the buttons */
 #event-1 {
     background-color: #00A650;
     border: 1px solid #000000;

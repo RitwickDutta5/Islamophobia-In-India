@@ -1,4 +1,4 @@
-// use mapbox mercator projection along with access token
+// use mapbox projection along with access token
 mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nIiwiYSI6IjAyYzIwYTJjYTVhMzUxZTVkMzdmYTQ2YzBmMTM0ZDAyIn0.owNd_Qa7Sw2neNJbK6zc1A';
 const map = new mapboxgl.Map({
     container: 'map',
@@ -100,71 +100,71 @@ document.getElementById('event-13').addEventListener('click', () => {
         [77.38371, 28.83168], // northeastern corner of the bounds
     ]);
 });
-// create the popup
+// create popups for each button
 const popup1 = new mapboxgl.Popup({ color: '#F97D09', offset: 20 }).setText(
     'The Calcutta Riots of 1946, also known as the "Great Calcutta Killing," was a four-day Hindu-Muslim conflict in Bengal, India, resulting in an estimated 5,000 to 10,000 deaths and around 15,000 injuries from August 16 to 19, 1946. The Calcutta Riots are notable for being the deadliest episode in recent history. Different interpretations and perspectives on the events have been presented by various parties, including Britain, India, Pakistan, and Bangladesh.'
 );
 
-// create the popup
+
 const popup2 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Jammu along with resource links'
+    'Following the Partition of India, in the Jammu region of the princely state of Jammu and Kashmir, a series of massacres occurred during October-November 1947. Many Muslims were killed, and others were forcibly displaced to West Punjab.The Rashtriya Swayamsevak Sangh (A group of extremist Hindus) activists played a significant role in planning and executing the riots. It is estimated that between 20,000 to 100,000 Muslims were massacred during this period.'
 );
 
-// create the popup
+
 const popup3 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about partition along with resource links'
+    'The Partition of India in 1947 caused the displacement of numerous families, leading to widespread violence, including massacres, looting, and assaults against women and children. While accurate figures are unavailable, it is estimated that up to 20 million people were affected, and the death toll ranges from 200,000 to 1 million.'
 );
 
-// create the popup
+
 const popup4 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about hyderabad along with resource links'
+    'The Hyderabad Massacres of 1948 were large-scale killings that occurred following the Indian annexation of Hyderabad (Operation Polo). Hindu militias, with assistance from the Indian Army, were responsible for the violence, resulting in the deaths of over 200,000 civilians between September and October 1948.'
 );
 
-// create the popup
+
 const popup5 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Gujarat along with resource links'
+    'The 1969 Gujarat riots were a significant episode of communal violence in Gujarat, India, during September-October 1969. Massacres, arson, and looting occurred on a large scale. Officially, 660 people were killed, 1,074 injured, and over 48,000 suffered property losses. Unofficially, the death toll may have been higher, with the majority of victims being from the Muslim community. Property worth 42 million rupees was destroyed, with Muslims suffering 32 million worth of the damage.'
 );
 
-// create the popup
+
 const popup6 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Bhiwandi along with resource links'
+    'The 1970 Bhiwandi riots were religious clashes between Hindus and Muslims in Bhiwandi, Jalgaon, and Mahad in India. Over 250 people died, with the majority being Muslims. The Justice Madon commission criticized the biased actions of the police and the role played by the Hindu-nationalist party Shiv Sena in the violence.'
 );
 
-// create the popup
+
 const popup7 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Nellie along with resource links'
+    'On February 18, 1983, a large mob in Nellie, Assam, brutally slaughtered over 2,000 Bengal-origin Muslims, making it one of the deadliest anti-minority pogroms in modern India. Unofficial accounts suggest the death toll may have exceeded 7,000.'
 );
 
-// create the popup
+
 const popup8 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Hashimapura along with resource links'
+    'During the 1987 Meerut communal riots in Uttar Pradesh, India, the Hashimpura massacre occurred, where 50 Muslim men were killed by the police. It was reported that 19 personnel of the Provincial Armed Constabulary rounded up 42 Muslim youths, took them to the outskirts of the city, shot them, and dumped their bodies in an irrigation canal. '
 );
 
-// create the popup
+
 const popup9 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Bhagalpur along with resource links'
+    'The Bhagalpur violence of 1989 took place between Hindus and Muslims in the Bhagalpur district of Bihar, India. The violence started on 24 October 1989 due to issues surrounding the Babri Masjid, and the violent incidents continued for 2 months, affecting the Bhagalpur city and 250 villages around it. Over 1,000 people were killed (around 900 of which were Muslims), and another 50,000 were displaced as a result of the violence'
 );
 
-// create the popup
+
 const popup10 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Bombay along with resource links'
+    'The Bombay riots in December 1992 and January 1993 resulted in an estimated death toll of around 900 people. The riots were triggered by large-scale protests by Muslims in response to the demolition of the Babri Masjid by Hindu Karsevaks in Ayodhya, as well as tensions related to the Ram Temple issue.'
 );
 
-// create the popup
+
 const popup11 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Gujarat along with resource links'
+    'The 2002 Gujarat riots were a three-day period of inter-communal violence in Gujarat, India. The violence resulted in 1,044 deaths, with 790 Muslims and 254 Hindus among the victims. Many brutal killings and rapes were reported on as well as widespread looting and destruction of property. Government officials, including Chief Minister Narendra Modi, were accused of condoning the violence and targeting Muslim-owned properties.'
 );
 
-// create the popup
+
 const popup12 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Muzzafarnagar along with resource links'
+    'The clashes between Hindu and Muslim communities in Muzaffarnagar district, Uttar Pradesh, India, in August-September 2013 resulted in at least 62 deaths, with 42 Muslims and 20 Hindus among the victims. The violence also injured 93 people and displaced over 50,000 individuals. The Supreme Court of India held the Samajwadi Party-led government responsible for negligence in preventing the violence and ordered immediate arrests of all accused, regardless of their political affiliation.'
 );
 
-// create the popup
+
 const popup13 = new mapboxgl.Popup({ color: '#F97D09', offset: 50 }).setText(
-    'Lorem Ipsum about Delhi along with resource links'
+    'The 2020 Delhi riots, also known as the North East Delhi riots, were a series of violent incidents in North East Delhi that started on 23 February 2020. The riots were primarily instigated by Hindu mobs targeting Muslims, resulting in the deaths of 53 individuals. The majority of the victims, about two-thirds, were Muslims who were subjected to shootings, multiple attacks, and arson.'
 );
-
+// create clickable markers for each popup
 const marker1 = new mapboxgl.Marker({ color: '#00A650' })
     .setLngLat([88.35680, 22.57202])
     .setPopup(popup1)
