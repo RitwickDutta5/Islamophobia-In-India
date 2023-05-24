@@ -1,7 +1,7 @@
 html,
 head,
 body,
-/* using responsive webmap layout taken from here https://github.com/chriswhong/responsive-web-map-layout, change colors according to color scheme*/
+/* using responsive webmap layout taken from here <a href=https://github.com/chriswhong/responsive-web-map-layout </a>, change colors according to color scheme*/
 #main-container {
     height: 100%;
     width: 100%;
