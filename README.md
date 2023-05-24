@@ -11,7 +11,6 @@ Documentation plays a vital role in shedding light on historical events, enablin
 Inspired by the opening of the Partition Museum (https://www.partitionmuseum.org/), i decided to create a github repository of historical data regarding Islamophobia and pogroms in India. 
 
 Here is a screenshot of the webmap for reference: 
-
 https://vscode.dev/github/RitwickDutta5/Islamophobia-In-India/blob/main/Screenshot%202023-05-24%20at%207.23.57%20AM.png
 
 <h2> Methodology </h2>
