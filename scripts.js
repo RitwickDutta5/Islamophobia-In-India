@@ -47,8 +47,8 @@ document.getElementById('event-5').addEventListener('click', () => {
 
 document.getElementById('event-6').addEventListener('click', () => {
     map.fitBounds([
-        [72.90014, 19.04984], // southwestern corner of the bounds
-        [73.23814, 19.48157], // northeastern corner of the bounds
+        [72.89988, 19.18170], // southwestern corner of the bounds
+        [73.22979, 19.49798], // northeastern corner of the bounds
     ]);
 });
 
@@ -75,8 +75,8 @@ document.getElementById('event-9').addEventListener('click', () => {
 
 document.getElementById('event-10').addEventListener('click', () => {
     map.fitBounds([
-        [72.68198, 18.72743], // southwestern corner of the bounds
-        [73.16457, 19.41244], // northeastern corner of the bounds
+        [72.72886, 18.92222], // southwestern corner of the bounds
+        [73.02948, 19.27551], // northeastern corner of the bounds
     ]);
 });
 
