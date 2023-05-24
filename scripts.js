@@ -8,7 +8,24 @@ const map = new mapboxgl.Map({
 });
 // add navigation control
 map.addControl(new mapboxgl.NavigationControl());
+// add geojson india boundary
+map.on('load', function () {
+    map.addSource('India-boundary', {
+        type: 'geojson',
+        data: 'data/India-boundary.geojson',
+    }),
+// show boundary with a line layer
+        map.addLayer({
+            id: 'line-India-boundary',
+            type: 'line',
+            source: 'India-boundary',
+            paint: {
+                'line-color': '#000000',
 
+            }
+        })
+
+})
 // fit to bounds made using bounding box from location helper tool
 document.getElementById('event-1').addEventListener('click', () => {
     map.fitBounds([
@@ -175,57 +192,57 @@ const marker2 = new mapboxgl.Marker({ color: '#00A650' })
     .setPopup(popup2)
     .addTo(map);
 
-const marker3 = new mapboxgl.Marker({ color: '#00A650' })
+const marker3 = new mapboxgl.Marker({ color: '#f24d2c' })
     .setLngLat([74.45238, 31.39014])
     .setPopup(popup3)
     .addTo(map);
 
-const marker4 = new mapboxgl.Marker({ color: '#00A650' })
+const marker4 = new mapboxgl.Marker({ color: '#f24d2c' })
     .setLngLat([78.47428, 17.36328])
     .setPopup(popup4)
     .addTo(map);
 
-const marker5 = new mapboxgl.Marker({ color: '#00A650' })
+const marker5 = new mapboxgl.Marker({ color: '#f24d2c' })
     .setLngLat([70.17362, 22.09601])
     .setPopup(popup5)
     .addTo(map);
 
-const marker6 = new mapboxgl.Marker({ color: '#00A650' })
+const marker6 = new mapboxgl.Marker({ color: '#f24d2c' })
     .setLngLat([73.05900, 19.30593])
     .setPopup(popup6)
     .addTo(map);
 
-const marker7 = new mapboxgl.Marker({ color: '#00A650' })
+const marker7 = new mapboxgl.Marker({ color: '#113ff5' })
     .setLngLat([92.69029, 26.33904])
     .setPopup(popup7)
     .addTo(map);
 
-const marker8 = new mapboxgl.Marker({ color: '#00A650' })
+const marker8 = new mapboxgl.Marker({ color: '#113ff5' })
     .setLngLat([77.71139, 28.99720])
     .setPopup(popup8)
     .addTo(map);
 
-const marker9 = new mapboxgl.Marker({ color: '#00A650' })
+const marker9 = new mapboxgl.Marker({ color: '#113ff5' })
     .setLngLat([86.98272, 25.25360])
     .setPopup(popup9)
     .addTo(map);
 
-const marker10 = new mapboxgl.Marker({ color: '#00A650' })
+const marker10 = new mapboxgl.Marker({ color: '#113ff5' })
     .setLngLat([72.86978, 19.07013])
     .setPopup(popup10)
     .addTo(map);
 
-const marker11 = new mapboxgl.Marker({ color: '#00A650' })
+const marker11 = new mapboxgl.Marker({ color: '#300b0e' })
     .setLngLat([72.60843, 23.01642])
     .setPopup(popup11)
     .addTo(map);
 
-const marker12 = new mapboxgl.Marker({ color: '#00A650' })
+const marker12 = new mapboxgl.Marker({ color: '#300b0e' })
     .setLngLat([77.70150, 29.46909])
     .setPopup(popup12)
     .addTo(map);
 
-const marker13 = new mapboxgl.Marker({ color: '#00A650' })
+const marker13 = new mapboxgl.Marker({ color: '#300b0e' })
     .setLngLat([77.21441, 28.63688])
     .setPopup(popup13)
     .addTo(map);

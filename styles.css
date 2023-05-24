@@ -41,15 +41,14 @@ nav {
     flex-grow: 1;
     display: flex;
     min-height: 0;
-    background-color: #F47216;
+    background-color: #f5765d;
     color: #000000;
-    font-weight: bolder;
 }
 
 #sidebar {
     width: 500px;
     padding: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     overflow-y: scroll;
     box-sizing: border-box;
 }
@@ -60,8 +59,9 @@ nav {
 }
 
 .title {
-    font-weight: 600;
+    font-weight: 900;
     color: #FFFFFF;
+    font-size:large;
 }
 
 @media only screen and (max-width: 800px) {
@@ -125,7 +125,7 @@ nav {
 }
 
 #event-3 {
-    background-color: #00A650;
+    background-color: #f24d2c;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -147,7 +147,7 @@ nav {
 }
 
 #event-4 {
-    background-color: #00A650;
+    background-color: #f24d2c;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -169,7 +169,7 @@ nav {
 }
 
 #event-5 {
-    background-color: #00A650;
+    background-color: #f24d2c;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -191,7 +191,7 @@ nav {
 }
 
 #event-6 {
-    background-color: #00A650;
+    background-color: #f24d2c;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -213,7 +213,7 @@ nav {
 }
 
 #event-7 {
-    background-color: #00A650;
+    background-color: #113ff5;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -235,7 +235,7 @@ nav {
 }
 
 #event-8 {
-    background-color: #00A650;
+    background-color: #113ff5;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -257,7 +257,7 @@ nav {
 }
 
 #event-9 {
-    background-color: #00A650;
+    background-color: #113ff5;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -279,7 +279,7 @@ nav {
 }
 
 #event-10 {
-    background-color: #00A650;
+    background-color: #113ff5;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -301,7 +301,7 @@ nav {
 }
 
 #event-11 {
-    background-color: #00A650;
+    background-color: #300b0e;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -323,7 +323,7 @@ nav {
 }
 
 #event-12 {
-    background-color: #00A650;
+    background-color: #300b0e;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -345,7 +345,7 @@ nav {
 }
 
 #event-13 {
-    background-color: #00A650;
+    background-color: #300b0e;
     border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
@@ -365,3 +365,4 @@ nav {
     touch-action: manipulation;
     width: 100%;
 }
+
