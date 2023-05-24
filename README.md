@@ -11,7 +11,7 @@ Documentation plays a vital role in shedding light on historical events, enablin
 Inspired by the opening of the Partition Museum (https://www.partitionmuseum.org/), i decided to create a github repository of historical data regarding Islamophobia and pogroms in India. 
 
 Here is a screenshot of the webmap for reference: 
-https://vscode.dev/github/RitwickDutta5/Islamophobia-In-India/blob/main/Screenshot%202023-05-24%20at%207.23.57%20AM.png
+![Screenshot 2023-05-24 at 7 23 57 AM](https://github.com/RitwickDutta5/Islamophobia-In-India/assets/129434817/e0a31e38-0ac5-4e77-b19c-f8bd64ced7a5)
 
 <h2> Methodology </h2>
 Given the recent wave of anti-muslim sentiments in the country under Prime Minister Modi, my color scheme uses the same colors as the one used by his party, the Bharatiya Janata Party - the exact shades of Orange, Green, White and Black. 
