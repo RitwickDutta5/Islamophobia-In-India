@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- bring in bootstrap css and js and mapbox css-->
+<!-- bring in bootstrap css and js, mapbox css and link project css to separate css and html-->
 
 <head>
     <meta charset="utf-8">
@@ -42,7 +42,8 @@
                 </p>
 
                 <p>To get a primer on Hindu-Muslim communal riots in India, you can find out more <a
-                        href="https://www.cfr.org/backgrounder/india-muslims-marginalized-population-bjp-modi" target="_blank"> here </a>
+                        href="https://www.cfr.org/backgrounder/india-muslims-marginalized-population-bjp-modi"
+                        target="_blank"> here </a>
                 </p>
 
                 <!-- call to action for user to explore using the accordion from bootstrap, buttons, markers and images that are hyperlinked-->
@@ -60,6 +61,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
+                                <!-- headings for each time period to be discussed-->
                                 1.During Partition (1946-1947)
                             </button>
                         </h2>
@@ -67,6 +69,7 @@
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <button id="event-1">Calcutta - 1946</button>
+                                <!-- using target="_blank" to open image in new tab -->
                                 <a href="https://www.sciencespo.fr/mass-violence-war-massacre-resistance/fr/document/calcutta-riots-1946.html"
                                     target="_blank">
                                     <p></p>
@@ -213,7 +216,7 @@
                 </div>
 
             </div>
-            <!-- bring in mapbox js -->
+            <!-- bring in mapbox js, separate js from html by linking here-->
             <div id="map"></div>
             <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js"></script>
             <script src="scripts.js"></script>

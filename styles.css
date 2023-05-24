@@ -1,7 +1,7 @@
 html,
 head,
 body,
-/* add stylings from responsive webmap by Chris Wong, while changing colors */
+/* using responsive webmap layout taken from here https://github.com/chriswhong/responsive-web-map-layout, change colors according to color scheme*/
 #main-container {
     height: 100%;
     width: 100%;
@@ -79,7 +79,7 @@ nav {
     }
 }
 
-/* style the buttons */
+/* style the buttons in the same color scheme*/
 #event-1 {
     background-color: #00A650;
     border: 1px solid #000000;

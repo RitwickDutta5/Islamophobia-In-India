@@ -100,7 +100,7 @@ document.getElementById('event-13').addEventListener('click', () => {
         [77.38371, 28.83168], // northeastern corner of the bounds
     ]);
 });
-// create popups for each button
+// create popups for each button with information for each
 const popup1 = new mapboxgl.Popup({ color: '#F97D09', offset: 20 }).setText(
     'The Calcutta Riots of 1946, also known as the "Great Calcutta Killing," was a four-day Hindu-Muslim conflict in Bengal, India, resulting in an estimated 5,000 to 10,000 deaths and around 15,000 injuries from August 16 to 19, 1946. The Calcutta Riots are notable for being the deadliest episode in recent history. Different interpretations and perspectives on the events have been presented by various parties, including Britain, India, Pakistan, and Bangladesh.'
 );
